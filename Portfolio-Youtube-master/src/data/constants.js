@@ -203,7 +203,7 @@ export const projects = [
     title: "Text Recognition",
     date: "Jan 2023 - Mar 2023",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "This Android application uses Firebase ML Kit to recognize text from images captured by the device's camera. Users can capture photos, and the app will extract and display any text found in the images. The project involves setting up Firebase, adding necessary permissions in the AndroidManifest.xml file, and creating a user-friendly interface with a button to capture images, an ImageView to display the captured photo, and a TextView to show the recognized text. When a user captures an image, it is processed using Firebase ML Kit's on-device text recognizer. The recognized text is then displayed in the TextView, providing a seamless experience for digitizing text from physical sources",
     image:
       "https://github.com/user-attachments/assets/53916687-1a8f-4a24-9919-74fc8ce51a27",
     tags: ["Kotlin", "Firebase"],
